@@ -7,7 +7,7 @@ const App = () => {
         {bars.map((_, index) => (
           <div
           key={index}
-          className="w-110 h-5 rounded-full bg-[#C19A6B] absolute origin-center flex justify-between items-center px-2 overflow-hidden"
+          className="w-110 h-5 rounded-full bg-[#C19A6B] absolute origin-center flex justify-between items-center"
           style={{ 
             transform: `rotate(${index * 15}deg)`, 
             boxShadow: "inset 0px 3px 6px rgba(0, 0, 0, 0.5), inset 0px -3px 6px rgba(255, 255, 255, 0.2)"
@@ -21,7 +21,6 @@ const App = () => {
     boxShadow: "0px 2px 5px rgba(0, 0, 0, 0.5), inset 0px -1px 2px rgba(255, 255, 255, 0.3)",
   }}
 ></div>
-
           </div>
         ))}
       </div>
